@@ -1,6 +1,6 @@
 import streamlit as st
 #修改网页名字和图标
-st.set_page_config(page_title='动物图鉴', page_icon='🦝')
+st.set_page_config(page_title='视频播放', page_icon='📱')
 #设置标题
 st.title("📽Streamlit视频播放器")
 #导入文本写内容
