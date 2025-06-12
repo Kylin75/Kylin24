@@ -85,8 +85,8 @@ with c2:
 # 自定义format_func函数
 def my_format_func(option):
     return f'{option}'
-
-st.header('下拉按钮示例')
+#设置一个小标题
+st.header('视频库')
 
 category= st.selectbox('选择你喜欢的类型：', ['全部','动画', '自然', '冒险'], format_func=my_format_func, index=2)
 # 根据返回值不同，选择不同的特色回答
